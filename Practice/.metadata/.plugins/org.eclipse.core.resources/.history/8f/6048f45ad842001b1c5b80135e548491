@@ -1,0 +1,17 @@
+package eg1;
+
+public class C extends B {
+
+	void showC()
+	{
+		System.out.println("Class C. [ShowC()]");
+	}
+	
+	void show()
+	{
+		
+		System.out.println("Class C.");
+		super.show();
+	}
+	
+}

@@ -1,0 +1,17 @@
+package demo;
+
+public class VarArgMain {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	void show(int ...a)
+	{
+		for(int i : a)
+			System.out.println("Value: "+ i);
+	}
+
+}

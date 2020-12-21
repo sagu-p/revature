@@ -1,0 +1,5 @@
+package MultipleInheritace;
+
+public interface A {
+
+}

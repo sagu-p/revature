@@ -1,0 +1,18 @@
+package dem1;
+
+public class ChechPoly {
+	
+	public static void main(String[] args) {
+		
+		//Methid Overloading
+		A a = new A();
+		a.show();
+		a.show(2611);
+		
+		//Method Overriding
+		B o = new B();
+		o.show();
+		
+	}
+
+}

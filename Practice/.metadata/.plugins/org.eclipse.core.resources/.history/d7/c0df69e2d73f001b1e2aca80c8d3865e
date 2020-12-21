@@ -1,0 +1,30 @@
+package Array;
+
+import java.util.Scanner;
+
+public class DelArrayElement {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Array Size: ");
+		int num = sc.nextInt();
+		
+		int []arr = new int[num];
+		
+		for(int i=0; i<num; i++)
+		{
+			System.out.print("Enter Array Element "+ (i+1) +": ");
+			arr[i] = sc.nextInt();
+		}
+		
+		System.out.print("Enter element which you want to delete: ");
+		int del_num = sc.nextInt();
+		
+		int index = arr.toString().indexOf(del_num);
+		
+		System.out.println(index);
+		
+	}
+}

@@ -1,0 +1,13 @@
+package eg1;
+
+public class ValidatePerson {
+	
+	public static void main(String[] args) {
+		
+		Person p = new Person(100, "Sagar");
+		
+		System.out.println(p);
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package MultipleInheritace;
+
+public interface A {
+	
+	void show();
+
+}

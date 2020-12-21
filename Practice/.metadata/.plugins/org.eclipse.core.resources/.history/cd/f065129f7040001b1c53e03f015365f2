@@ -1,0 +1,10 @@
+package PalindromeNumbersBet;
+
+public class PalNumBetween {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

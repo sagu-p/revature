@@ -1,0 +1,15 @@
+package DiamondPrblm;
+
+public class D extends C implements B {
+
+	@Override
+	public void showB() {
+		System.out.println("Overriden Methid of interface B in calss D. [showB()] >>> b = " + BB);		
+	}
+
+	@Override
+	public void showA() {
+		System.out.println("Overriden Methid of interface A in calss C. [showA()] >>> a = " + AA);
+		
+	}
+}

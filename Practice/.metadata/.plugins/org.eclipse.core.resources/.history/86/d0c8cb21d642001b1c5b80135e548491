@@ -1,0 +1,14 @@
+package CustomExp;
+
+public class ValidateRuntimeExp {
+	
+	public static void main(String[] args) {
+		
+		boolean check = false;
+		
+		if(check)
+			throws new RuntimeExp("Enter Valid value.");
+		
+	}
+
+}

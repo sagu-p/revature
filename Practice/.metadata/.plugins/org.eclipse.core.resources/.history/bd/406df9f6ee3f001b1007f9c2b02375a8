@@ -1,0 +1,25 @@
+package PalindromeNumbersBet;
+
+import java.util.Scanner;
+
+public class PalNum {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Number: ");
+		int num = sc.nextInt();
+		
+		String str = num+"";
+		
+		StringBuilder sb = new StringBuilder(str);
+		
+		if(sb.reverse().toString().equals(str))
+			System.out.println("Palindrome Number");
+		else
+			System.out.println("Not Palindrome Number");
+		
+	}
+
+}

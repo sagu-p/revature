@@ -1,0 +1,7 @@
+package CustomExp;
+
+public class RuntimeExp extends RuntimeException {
+
+	
+	
+}

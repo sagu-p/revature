@@ -1,0 +1,25 @@
+package Array;
+
+import java.util.Scanner;
+
+public class EvenOddArray {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Array Size: ");
+		int num = sc.nextInt();
+		
+		int []arr = new int[num];
+		int []new_arr = new int[num-1];
+		
+		for(int i=0; i<num; i++)
+		{
+			System.out.print("Enter Array Element "+ (i+1) +": ");
+			arr[i] = sc.nextInt();
+		}
+		
+	}
+
+}

@@ -1,0 +1,42 @@
+package demo;
+
+import java.net.MulticastSocket;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ListMain {
+	
+	public static void main(String[] args) {
+		
+		List<String> l = new LinkedList<String>();
+		
+		l.add("26");
+		l.add("Sagar");
+		l.add("9");
+		l.add("Zeel");
+		
+		System.out.println(l);
+		System.out.println("Size of list is " + l.size());
+		
+		l.remove(0);
+		
+		System.out.println(l);
+		
+		l.set(1, "Patel");
+		
+		System.out.println("Element of 0th position is : "+l.get(0) );
+		
+		for(String s: l)
+			System.out.print(s + "\t");
+		
+		Collections.reverse(l);
+		System.out.println(l);
+		
+		//2nd List
+		List <Integer> l2 = new LinkedList<>();
+		
+		
+	}
+
+}

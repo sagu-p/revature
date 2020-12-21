@@ -1,0 +1,32 @@
+package dmo;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class CheckSets {
+	
+	public static void main(String[] args) {
+		
+		Set<String> st = new HashSet<>();
+		
+		st.add("Sagar");
+		st.add("Patel");
+		st.add(null);
+		st.add("Rita");
+		st.add("Chandrakant");
+		st.add("Zeel");
+		st.add(null);
+		st.add(null);
+		st.add(null);
+		st.add("Rita");
+		st.add("Chandrakant");
+		st.add("Zeel");
+		
+		System.out.println(st);
+		
+		st.remove("Zeel");
+		System.out.println(st);
+		
+	}
+
+}

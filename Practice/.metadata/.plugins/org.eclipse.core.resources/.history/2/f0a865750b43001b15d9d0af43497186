@@ -1,0 +1,10 @@
+package MultipleInheritace;
+
+public class C extends B implements A {
+
+	@Override
+	public void show() {
+		System.out.println("Overriden Methid of Interface A in class C [ show() ]");		
+	}
+
+}

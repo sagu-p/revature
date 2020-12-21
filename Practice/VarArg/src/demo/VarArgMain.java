@@ -1,0 +1,23 @@
+package demo;
+
+public class VarArgMain {
+	
+	public static void main(String[] args) {
+		
+		VarArgMain o =new VarArgMain();
+		
+		o.show(2,3,4,5,6);
+		o.show(2611);
+		o.show();
+		
+		
+	}
+	
+	void show(int ...a)
+	{
+		System.out.println("New Fuction call:");
+		for(int i : a)
+			System.out.println("Value: "+ i);
+	}
+
+}

@@ -1,0 +1,22 @@
+package StringOp;
+
+import java.util.Scanner;
+
+public class LastCharOfStr {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Line: ");
+		String str = sc.nextLine();
+		
+		StringBuffer br = new StringBuffer(str);
+		
+		//String str2 = ;
+		
+		System.out.println(str.split(" "));
+		
+	}
+
+}

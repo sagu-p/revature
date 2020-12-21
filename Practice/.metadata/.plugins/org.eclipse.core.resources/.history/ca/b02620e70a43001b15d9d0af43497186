@@ -1,0 +1,10 @@
+package MultipleInheritace;
+
+public class B {
+	
+	void show()
+	{
+		System.out.println("Class B [ show() ]");
+	}
+
+}

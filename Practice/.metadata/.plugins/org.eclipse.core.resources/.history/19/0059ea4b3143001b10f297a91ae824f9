@@ -1,0 +1,25 @@
+package demo;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class CheckQueue {
+	
+	public static void main(String[] args) {
+		
+		//PriorityQueue
+		Queue<Integer> q = new PriorityQueue<>();
+		
+		q.add(26);
+		q.add(11);
+		q.add(1998);
+	 q.add(9)
+		q.add(1998);
+		q.add(11);
+		q.add(26);
+		
+		System.out.println("Priority Queue: " + q);
+		
+	}
+
+}

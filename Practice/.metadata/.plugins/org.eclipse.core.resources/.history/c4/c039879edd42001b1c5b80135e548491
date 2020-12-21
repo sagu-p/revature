@@ -1,0 +1,10 @@
+package dem1;
+
+public class Rectangle extends Shape {
+
+	@Override
+	void area(float a, float b) {
+		System.out.println("Area of Rectangle.");
+	}
+
+}

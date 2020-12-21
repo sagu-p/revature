@@ -1,0 +1,23 @@
+package DiamondPrblm;
+
+public class DD implements B,CC {
+
+	@Override
+	public void showA() {
+		System.out.println("Overriden Method of interface CC in calss DD. [showA()] >>> a = " + AA);
+		
+	}
+
+	@Override
+	public void showB() {
+		System.out.println("Overriden Method of interface B in calss DD. [showB()] >>> b = " + BB);
+		
+	}
+
+	@Override
+	public void showCC() {
+		System.out.println("Overriden Method of interface CC in calss DD. [showCC()] >>> c = " + CC);
+		
+	}
+
+}

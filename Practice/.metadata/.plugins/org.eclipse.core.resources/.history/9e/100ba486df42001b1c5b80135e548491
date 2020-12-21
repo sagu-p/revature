@@ -1,0 +1,12 @@
+package dem1;
+
+public class B extends A {
+	
+	@Override
+	void show()
+	{
+		super.show();
+		System.out.println("show() in class B.");
+	}
+
+}

@@ -1,0 +1,6 @@
+package DiamondPrblm;
+
+public interface CC extends A {
+	int C_C = 33;
+	void showCC();
+}

@@ -1,0 +1,15 @@
+package MultipleInheritace;
+
+public class CheckInheritance {
+	
+	public static void main(String[] args) {
+		
+		//A o = new C();
+		C o =new C();
+		
+		o.show();
+		o.showB();
+		
+	}
+
+}

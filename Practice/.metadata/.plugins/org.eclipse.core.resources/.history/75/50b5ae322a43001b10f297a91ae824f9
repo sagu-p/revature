@@ -1,0 +1,21 @@
+package demo;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class ListMain {
+	
+	public static void main(String[] args) {
+		
+		List l = new LinkedList();
+		
+		l.add(26);
+		l.add("Sagar");
+		l.add(9);
+		l.add("Zeel");
+		
+		System.out.println(l);
+		
+	}
+
+}

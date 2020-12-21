@@ -1,0 +1,16 @@
+package Exp;
+
+import java.io.FileNotFoundException;
+
+public class CheckThrows {
+	
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		ThrowsExp th = new ThrowsExp();
+		
+		th.openFile("ABC.txt");
+		
+		
+	}
+
+}

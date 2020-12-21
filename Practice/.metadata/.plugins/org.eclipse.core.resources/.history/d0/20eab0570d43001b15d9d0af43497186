@@ -1,0 +1,16 @@
+package DiamondPrblm;
+
+public class D extends C implements B {
+
+	@Override
+	public void showB() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showA() {
+		System.out.println("Overriden Methid of interface A in calss C. [showA()] >>> a = " + AA);
+		
+	}
+}

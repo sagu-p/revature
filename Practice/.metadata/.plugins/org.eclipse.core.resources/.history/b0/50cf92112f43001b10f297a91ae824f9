@@ -1,0 +1,58 @@
+package dmo;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class CheckSets {
+	
+	public static void main(String[] args) {
+		
+		Set<String> st = new HashSet<>();
+		//HashSet (no duplicate, doesn't maintain iseration order, only one null value)
+		st.add("Sagar");
+		st.add("Patel");
+		st.add(null);
+		st.add("Rita");
+		st.add("Chandrakant");
+		st.add("Zeel");
+		st.add(null);
+		st.add(null);
+		st.add(null);
+		st.add("Rita");
+		st.add("Chandrakant");
+		st.add("Zeel");
+		
+		System.out.println(st);
+		
+		st.remove("Zeel");
+		System.out.println(st);
+		
+		
+		st = new LinkedHashSet<>();
+		//LinkedHashSet (no duplicate, maintain iseration order, only one null value)
+		
+		st.add("Sagar");
+		st.add("Patel");
+		st.add(null);
+		st.add("Rita");
+		st.add("Chandrakant");
+		st.add("Zeel");
+		st.add(null);
+		st.add(null);
+		st.add(null);
+		st.add("Rita");
+		st.add("Chandrakant");
+		st.add("Zeel");
+		st.add("Bhumi");
+		
+		
+		System.out.println(st);
+		
+		System.out.println(st);
+		
+		
+		
+	}
+
+}

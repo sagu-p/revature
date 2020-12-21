@@ -1,0 +1,9 @@
+package DiamondPrblm;
+
+public class C  {
+
+	public void show() {
+		System.out.println("Overriden Methid of interface A in calss C. [showA()] >>> a = ");		
+	}
+
+}

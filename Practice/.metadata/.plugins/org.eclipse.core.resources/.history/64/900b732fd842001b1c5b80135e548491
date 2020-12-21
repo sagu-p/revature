@@ -1,0 +1,15 @@
+package eg1;
+
+public class CheckInheritance {
+	
+	public static void main(String[] args) {
+		
+		A obj = new C();
+		
+		obj.show();
+		obj.showA();
+		//objB.showB();
+		
+	}
+
+}

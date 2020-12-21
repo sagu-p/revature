@@ -1,0 +1,11 @@
+package DiamondPrblm;
+
+public class D extends C implements B {
+
+	@Override
+	public void showB() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

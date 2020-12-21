@@ -1,0 +1,24 @@
+package dem1;
+
+public class ChechPoly {
+	
+	public static void main(String[] args) {
+		
+		Shape s;
+		
+		//Triangle area
+		s = new Triangle();
+		s.area();
+		
+		// Rect angle area
+		s = new Rectangle();
+		s.area();
+		
+		// circle area
+		s = new Circle();
+		s.area();
+		
+		
+	}
+
+}

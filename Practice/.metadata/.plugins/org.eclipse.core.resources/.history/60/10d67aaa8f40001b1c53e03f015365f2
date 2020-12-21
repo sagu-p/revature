@@ -1,0 +1,22 @@
+package Exp;
+
+public class TryCatchExp {
+	
+	public static void main(String[] args) {
+		
+		int x=10, y=0;
+		
+		try
+		{
+			System.out.println(x/y);
+		}
+		catch(Exception e)
+		{
+			System.out.println("Unhandled Eception.");
+		}
+		
+		
+		
+	}
+
+}

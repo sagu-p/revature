@@ -1,0 +1,26 @@
+package DiamondPrblm;
+
+public class CheckHybrid {
+	
+	public static void main(String[] args) {
+		
+		//			interface
+		//interface				class
+		//			class
+		D o =new D();
+		
+		o.showA();
+		o.showB();
+		o.showC();
+		
+		//			interface
+		//interface				interface
+		//			class
+		
+		DD oo = new DD();
+		oo.showA();
+		oo.showB();
+		
+	}
+
+}

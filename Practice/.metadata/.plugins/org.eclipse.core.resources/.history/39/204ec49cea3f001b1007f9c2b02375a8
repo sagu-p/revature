@@ -1,0 +1,42 @@
+package Array;
+
+import java.util.Scanner;
+
+public class ArrayaSumEvenOdd {
+	
+public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Array Size: ");
+		int num = sc.nextInt();
+		
+		int i, e, o;
+		int []arr = new int[num];
+		int []even = new int[num];
+		int []odd = new int[num];
+		
+		for(i=0; i<num; i++)
+		{
+			System.out.print("Enter Array Element "+ (i+1) +": ");
+			arr[i] = sc.nextInt();
+		}
+		
+		for(i=0, e=0,o=0;i<num;i++)
+		{
+			if(arr[i] %2 == 0)
+			{
+				e+=arr[i];
+			}
+			else
+			{
+				o+=arr[i];
+			}
+		}
+		
+		System.out.println("\nEven Numbers Sum: "+e);
+		System.out.println("\nodd Numbers Sum: "+o);
+		
+	}
+
+}

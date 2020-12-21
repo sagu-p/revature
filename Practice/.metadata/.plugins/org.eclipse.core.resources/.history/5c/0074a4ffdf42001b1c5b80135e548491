@@ -1,0 +1,15 @@
+package dem1;
+
+public class A {
+	
+	void show()
+	{
+		System.out.println("Show() in class A.");
+	}
+	
+	void show(int a)
+	{
+		System.out.println("Show(int a) in class A.\na = " + a);
+	}
+
+}

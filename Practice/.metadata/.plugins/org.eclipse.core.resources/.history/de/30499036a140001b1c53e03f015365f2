@@ -1,0 +1,8 @@
+package CustomExp;
+
+public class InvalidAgeException extends Exception {
+	
+	
+	
+
+}

@@ -1,0 +1,17 @@
+package eg1;
+
+public class ValidatePerson {
+	
+	public static void main(String[] args) {
+		
+		Person p = new Person(100, "Sagar");
+		Person p1 = new Person(101, "Sagar");
+		
+		System.out.println(p);
+		System.out.println(p1);
+		
+		System.out.println("p.equals(p1): "+p.equals(p1));
+		
+	}
+
+}

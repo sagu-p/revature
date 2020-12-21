@@ -1,0 +1,59 @@
+package demo;
+
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ListMain {
+	
+	public static void main(String[] args) {
+		
+		List<String> l = new LinkedList<String>();
+		
+		l.add("26");
+		l.add("Sagar");
+		l.add("9");
+		l.add("Zeel");
+		
+		System.out.println(l);
+		System.out.println("Size of list is " + l.size());
+		
+		l.remove(0);
+		
+		System.out.println(l);
+		
+		l.set(1, "Patel");
+		l.add("Chauhan");
+		
+		System.out.println("Element of 0th position is : "+l.get(0) );
+		System.out.println(l);
+		
+		
+		Collections.reverse(l);
+		System.out.println("Reverse: "+l);
+		
+		Collections.shuffle(l);
+		System.out.println("Shuffled: "+l);
+		
+		Collections.sort(l);
+		System.out.println("Sorted: "+ l);
+		
+		
+		//using for each loop
+		System.out.println("Using For each Loop:");
+		for(String s: l)
+			System.out.print(s + "\t");
+		//using itrator
+		System.out.println("\n\nUsing Iterator:");
+		Iterator<String> it = l.iterator();
+		while(it.hasNext())
+			System.out.print(it.next()+"\t");
+		
+		//2nd List
+		List <Integer> l2 = new LinkedList<>();
+		
+		
+	}
+
+}

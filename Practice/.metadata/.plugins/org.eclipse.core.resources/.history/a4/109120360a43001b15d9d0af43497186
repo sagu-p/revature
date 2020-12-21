@@ -1,0 +1,10 @@
+package demo;
+
+public class JavaClass implements JavaInterface {
+
+	@Override
+	public void show() {
+				
+	}
+
+}

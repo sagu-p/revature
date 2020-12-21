@@ -1,0 +1,10 @@
+package dem1;
+
+public class A {
+	
+	void show()
+	{
+		System.out.println("Show() in class A.");
+	}
+
+}

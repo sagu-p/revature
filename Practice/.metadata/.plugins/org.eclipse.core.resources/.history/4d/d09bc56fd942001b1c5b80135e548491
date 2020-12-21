@@ -1,0 +1,36 @@
+package eg1;
+
+public class CheckInheritance {
+	
+	public static void main(String[] args) {
+		
+		//A >> B >> C
+		C obj = new C();
+		
+		System.out.println("Multilevel Inheritance:");
+		obj.show();
+		obj.showA();
+		obj.showB();
+		obj.showC();
+		
+
+		// A >> (B & D)
+		B obj1 = new B();
+		
+		System.out.println("Herarchical Inheritance:");
+		System.out.println("A >> D");
+		obj1.show();
+		obj1.showA();
+		obj1.showB();
+		
+		D obj2 = new D();
+		
+		System.out.println("\nHerarchical Inheritance:");
+		System.out.println("A >> D");
+		obj2.show();
+		obj2.showA();
+		obj2.showD();
+		
+	}
+
+}

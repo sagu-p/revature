@@ -1,0 +1,15 @@
+package DiamondPrblm;
+
+public class CheckHybrid {
+	
+	public static void main(String[] args) {
+		
+		C o =new D();
+		
+		o.showA();
+		//o.showB();
+		o.showC();
+		
+	}
+
+}
