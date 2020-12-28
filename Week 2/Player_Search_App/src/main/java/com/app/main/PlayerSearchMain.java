@@ -1,5 +1,8 @@
 package com.app.main;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -95,7 +98,9 @@ public class PlayerSearchMain {
 				System.out.println("Search Player/s by their Date of Birth.");
 				System.out.print("Enter Date of Birth (yyyy-dd-mm) : ");
 				String dob = new String(sc.next());
+				
 				try {
+					//Date d = new SimpleDateFormat("yyyy-mm-dd").parse(dob);
 					List<Player> playersByDobList = playerSearchService.getPlayersByDob(dob);
 					System.out.println("\nList of Player/s, Whose Name is "+dob+".");
 					System.out.println("There are "+playersByDobList.size()+" Player/s.");

@@ -29,7 +29,7 @@ public class PlayerSearchSearchImpl implements PlayerSearchService {
 	@Override
 	public Player getPlayerByContact(long contact) throws BussinessException {
 		Player player = null;
-		if((contact+"").length() == 10)
+		if((contact+"").matches("[1-9][0-9]{9}"))
 		{
 			player = playerSearchDAO.getPlayerByContact(contact);
 		}

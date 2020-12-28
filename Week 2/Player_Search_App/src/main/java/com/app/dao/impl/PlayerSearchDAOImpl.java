@@ -5,6 +5,8 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -279,6 +281,14 @@ public class PlayerSearchDAOImpl implements PlayerSearchDAO {
 		try (Connection conn = PostresqlConnection.getConnection()){
 			
 			Date date = Date.valueOf(dob);
+			/*Date d = null;
+			
+			SimpleDateFormat f = new SimpleDateFormat("yyyy-mm-dd");
+			try {
+				d = f.parse(dob);
+			} catch (ParseException e1) {
+				System.out.println("Enter Valid Date");
+			}*/
 			
 			String sql = "select id, name , age, contact, team_name, gender, dob from test.player where dob=? order by id" ;
 			PreparedStatement preparedStatement = conn.prepareStatement(sql);
