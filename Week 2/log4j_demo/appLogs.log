@@ -1,0 +1,8 @@
+{TRACE}	com.app.HelloLog4j            	Hello from TRACE.                                 	29-12-2020 Tuesday EST 12:56:05 
+{DEBUG}	com.app.HelloLog4j            	Hello from DEBUG.                                 	29-12-2020 Tuesday EST 12:56:05 
+{INFO}	com.app.HelloLog4j            	Hello from INFO.                                  	29-12-2020 Tuesday EST 12:56:05 
+{WARN}	com.app.HelloLog4j            	Hello from WARN.                                  	29-12-2020 Tuesday EST 12:56:05 
+{ERROR}	com.app.HelloLog4j            	Hello from ERROR.                                 	29-12-2020 Tuesday EST 12:56:05 
+{FATAL}	com.app.HelloLog4j            	Hello from FATAL.                                 	29-12-2020 Tuesday EST 12:56:05 
+{INFO}	com.app.service.Services      	Hello from SayHello() in Class Services           	29-12-2020 Tuesday EST 12:56:05 
+{TRACE}	com.app.service.Services      	Hello from SayHello() in Class Services           	29-12-2020 Tuesday EST 12:56:05 
