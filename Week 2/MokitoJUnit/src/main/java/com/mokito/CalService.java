@@ -2,6 +2,7 @@ package com.mokito;
 
 public interface CalService {
 	
-	public int add(int i, int j);
+	public int sagu(int i, int j);
+	public int a();
 
 }

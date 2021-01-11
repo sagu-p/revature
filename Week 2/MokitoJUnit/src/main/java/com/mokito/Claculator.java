@@ -4,8 +4,6 @@ public class Claculator {
 
 	CalService service;
 	
-	
-	
 	public Claculator(CalService service) {
 		this.service = service;
 	}
@@ -13,8 +11,8 @@ public class Claculator {
 
 
 	public int perform(int i, int j) {
-		return service.add(i, j);
-		//return (i+j);
+		//return ABC.sum(i, j);
+		return (i+j);
 	}
 	
 }
