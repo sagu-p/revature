@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        android:id="@+id/xyz">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/app_lay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <TextView
+                android:id="@+id/list_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="SERVICES"
+                android:textColor="@color/colorPrimary" />
+
+            <ListView
+                android:id="@+id/finalList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/list_item"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-1dp"
+                android:divider="@color/colorPrimary"
+                android:dividerHeight="1dp"
+                android:scrollbars="vertical"
+                android:smoothScrollbar="true"></ListView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorPrimary"
+                android:layout_below="@id/txt_name6"></View>
+
+            <TextView
+                android:id="@+id/list_item00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="PRODUCTS:"
+                android:layout_below="@id/finalList"
+                android:textColor="@color/colorPrimary" />
+
+            <ListView
+                android:id="@+id/product_List"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/list_item00"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-1dp"
+                android:divider="@color/colorPrimary"
+                android:dividerHeight="1dp"
+                android:scrollbars="vertical"
+                android:smoothScrollbar="true"></ListView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorPrimary"
+                android:layout_below="@id/txt_name6"></View>
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@id/product_List"
+                android:text="Booked Employee:"
+                android:textColor="#000"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/txt_name8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/txt_name"
+                android:layout_below="@id/product_List"
+                android:text="Emp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/txt_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/txt_name"
+                android:layout_below="@id/product_List"
+                android:text="Emp"
+                android:textColor="#000"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/txt_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@id/txt_name3"
+                android:text="Date"
+                android:textColor="#000"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/txt_name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/txt_name4"
+                android:layout_below="@id/txt_name3"
+                android:text="At"
+                android:textColor="#000"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/txt_name6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/txt_name5"
+                android:layout_below="@id/txt_name3"
+                android:text="Time"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorPrimary"
+                android:layout_below="@id/txt_name6"></View>
+
+            <TextView
+                android:id="@+id/list_item1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_name4"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="SALON ADDRESS"
+                android:textColor="@color/colorPrimary" />
+            <ListView
+                android:id="@+id/salon_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/list_item1"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-1dp"
+                android:divider="@color/colorPrimary"
+                android:dividerHeight="1dp"
+                android:scrollbars="vertical"
+                android:smoothScrollbar="true"></ListView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/pay"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_below="@id/salon_list"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/list_item4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pay"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="PAY AT SALON"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary" />
+            <!--<Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/book"
+                android:text="BOOK APPOINTMENT"
+                android:layout_below="@id/list_item4"/>-->
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/book"
+        android:text="BOOK APPOINTMENT"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:background="@drawable/gradient"/>
+
+
+</RelativeLayout>

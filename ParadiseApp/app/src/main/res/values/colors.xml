@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorPrimaryDarklight">#d874002b</color>
+    <color name="colorPrimarylight">#d881002b</color>
+    <color name="colorAccentlight">#d874022b</color>
+    <color name="blue">#000061</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#858585</color>
+    <color name="input">#FFFFF477</color>
+    <color name="background1">#fffaca</color>
+    <color name="black">#000000</color>
+
+</resources>

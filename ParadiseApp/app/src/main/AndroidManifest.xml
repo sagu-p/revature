@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vivek.paradiseapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_salon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_salon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".temp"></activity>
+        <activity
+            android:name=".Catagoty_Select"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Appointment_Detail_Pre_Con" />
+        <activity android:name=".Appointment" />
+        <activity android:name=".Appointment_detail" />
+        <activity android:name=".ShowAppointment" />
+        <activity
+            android:name=".Nail_SubCaat_itemActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubCatNailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainNailCatagoryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Skin_SubCat_itemActivity" />
+        <activity
+            android:name=".SubCatSkinActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainSkinCatagoryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SummaryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".SubCat_itemActivity" />
+        <activity
+            android:name=".SubCatHairActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainCategoryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LandingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CustomerProfile" />
+        <activity
+            android:name=".NavigationHomeActivity"
+            android:label="Paradise"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EmployeeLogin" />
+        <activity android:name=".EmployeeRegetrationActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".sec" />
+        <activity android:name=".BrandActivity" />
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".Product_itemActivity" />
+    </application>
+
+</manifest>
